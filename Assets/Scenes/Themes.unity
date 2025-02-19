@@ -1978,15 +1978,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Selecione um tema
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c2260c662b4326741ba26546769b7453, type: 2}
+  m_sharedMaterial: {fileID: -1852574661921771319, guid: c2260c662b4326741ba26546769b7453, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2114,8 +2114,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Voc\xEA acertou 5 de 20 quest\xF5es"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 70da54666429d5542b829a2906615a82, type: 2}
+  m_sharedMaterial: {fileID: -6252530595767807035, guid: 70da54666429d5542b829a2906615a82, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
