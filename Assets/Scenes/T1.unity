@@ -337,7 +337,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 71035486}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2122244800}
+        m_TargetAssemblyTypeName: responder, Assembly-CSharp
+        m_MethodName: resposta
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: B
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &71035486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,7 +470,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 108182198}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2122244800}
+        m_TargetAssemblyTypeName: responder, Assembly-CSharp
+        m_MethodName: resposta
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: A
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &108182198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -974,7 +998,7 @@ GameObject:
   - component: {fileID: 1035363548}
   - component: {fileID: 1035363547}
   m_Layer: 5
-  m_Name: txt_response_B
+  m_Name: txt_response_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1284,7 +1308,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1272352241}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2122244800}
+        m_TargetAssemblyTypeName: responder, Assembly-CSharp
+        m_MethodName: resposta
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: D
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1272352241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1707,7 +1743,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1955363950}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2122244800}
+        m_TargetAssemblyTypeName: responder, Assembly-CSharp
+        m_MethodName: resposta
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: C
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1955363950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2018,6 +2066,183 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080219447}
   m_CullTransparentMesh: 1
+--- !u!1 &2122244799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2122244801}
+  - component: {fileID: 2122244800}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2122244800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122244799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88a2ecf87cb1ad74bb39c4698001f770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idTema: 0
+  pergunta: {fileID: 1936044958}
+  respostaA: {fileID: 636308417}
+  respostaB: {fileID: 2080219449}
+  respostaC: {fileID: 1035363547}
+  respostaD: {fileID: 34717170}
+  infoRespostas: {fileID: 2019597680}
+  perguntas:
+  - "Qual \xE9 o maior \xF3rg\xE3o do corpo humano?"
+  - "Qual \xE9 o planeta mais pr\xF3ximo do Sol?"
+  - O que as abelhas produzem?
+  - "Qual g\xE1s as plantas absorvem para a fotoss\xEDntese?"
+  - "Qual destes animais \xE9 um mam\xEDfero?"
+  - Qual a camada mais externa da Terra?
+  - O que cobre o corpo dos peixes?
+  - Quantos sentidos tem o ser humano?
+  - "Qual \xE9 a principal fonte de energia da Terra?"
+  - "Qual destes animais p\xF5e ovos?"
+  - "O que \xE9 essencial para a sobreviv\xEAncia humana?"
+  - "Qual \xE9 o maior mam\xEDfero do mundo?"
+  - "Qual destes \xE9 um inseto?"
+  - "Qual destes \xE9 um g\xE1s encontrado em grande quantidade no ar?"
+  - "Qual desses planetas \xE9 conhecido pelos seus an\xE9is?"
+  - Como chamamos os animais que se alimentam apenas de plantas?
+  - "Qual destes l\xEDquidos \xE9 condutor de eletricidade?"
+  - "O que acontece com a \xE1gua ao atingir 100\xB0C?"
+  - "Como se chama o processo de transforma\xE7\xE3o da lagarta em borboleta?"
+  - "O que o pulm\xE3o absorve do ar para o sangue?"
+  alternativaA:
+  - "Cora\xE7\xE3o"
+  - Terra
+  - "A\xE7\xFAcar"
+  - "Oxig\xEAnio"
+  - Cobra
+  - Manto
+  - Pele
+  - 3
+  - Lua
+  - Gato
+  - "\xC1gua"
+  - Elefante
+  - Aranha
+  - "Oxig\xEAnio"
+  - Marte
+  - "On\xEDvoros"
+  - "\xC1gua pura"
+  - Congela
+  - Metamorfose
+  - "Nitrog\xEAnio"
+  alternativaB:
+  - "Pulm\xE3o"
+  - "V\xEAnus"
+  - Geleia real
+  - "Nitrog\xEAnio"
+  - Sapo
+  - "N\xFAcleo"
+  - Penas
+  - 5
+  - Sol
+  - Cavalo
+  - Sal
+  - Urso-pardo
+  - "Escorpi\xE3o"
+  - "Nitrog\xEAnio"
+  - "J\xFApiter"
+  - "Herb\xEDvoros"
+  - "\xC1gua salgada"
+  - Evapora
+  - "Evolu\xE7\xE3o"
+  - "Di\xF3xido de carbono"
+  alternativaC:
+  - "F\xEDgado"
+  - Marte
+  - Mel
+  - "Di\xF3xido de carbono"
+  - Golfinho
+  - Crosta
+  - Escamas
+  - 5
+  - Vento
+  - Ornitorrinco
+  - "A\xE7\xFAcar"
+  - Baleia-azul
+  - Formiga
+  - "Nitrog\xEAnio"
+  - Urano
+  - "Carn\xEDvoros"
+  - "\xD3leo"
+  - Endurece
+  - Crescimento
+  - "Oxig\xEAnio"
+  alternativaD:
+  - Pele
+  - "Merc\xFArio"
+  - "N\xE9ctar"
+  - "Hidrog\xEAnio"
+  - "Jacar\xE9"
+  - Atmosfera
+  - Pelos
+  - 6
+  - "\xC1gua"
+  - Urso
+  - "Pl\xE1stico"
+  - Cavalo
+  - Caracol
+  - "Di\xF3xido de carbono"
+  - 'Saturno '
+  - "Inset\xEDvoros"
+  - "\xC1lcool"
+  - ' Se transforma em gelo'
+  - "Reprodu\xE7\xE3o"
+  - "Hidrog\xEAnio"
+  corretas:
+  - Pele
+  - "Merc\xFArio"
+  - Mel
+  - "Di\xF3xido de carbono"
+  - Golfinho
+  - Crosta
+  - Escamas
+  - 5
+  - Sol
+  - Ornitorrinco
+  - "\xC1gua"
+  - Baleia-azul
+  - Formiga
+  - "Nitrog\xEAnio"
+  - Saturno
+  - "Herb\xEDvoros"
+  - "\xC1gua salgada"
+  - Evapora
+  - Metamorfose
+  - "Oxig\xEAnio"
+--- !u!4 &2122244801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122244799}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2027,3 +2252,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1890695896}
   - {fileID: 1097060257}
+  - {fileID: 2122244801}
