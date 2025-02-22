@@ -10,6 +10,12 @@ public class ComandosBasicos : MonoBehaviour
         SceneManager.LoadScene(nomeCena);
     }
 
+    // apenas para teste, tirar isso do jogo final
+    public void resetarPontuacoes() 
+    {
+        PlayerPrefs.DeleteAll(); // deleta todo o progresso do jogo
+    }
+
 
 
 }

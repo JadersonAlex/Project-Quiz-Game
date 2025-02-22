@@ -2095,7 +2095,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88a2ecf87cb1ad74bb39c4698001f770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idTema: 0
   pergunta: {fileID: 1936044958}
   respostaA: {fileID: 636308417}
   respostaB: {fileID: 2080219449}
@@ -2152,7 +2151,7 @@ MonoBehaviour:
   - Sapo
   - "N\xFAcleo"
   - Penas
-  - 5
+  - 4
   - Sol
   - Cavalo
   - Sal
@@ -2179,7 +2178,7 @@ MonoBehaviour:
   - "A\xE7\xFAcar"
   - Baleia-azul
   - Formiga
-  - "Nitrog\xEAnio"
+  - "H\xE9lio"
   - Urano
   - "Carn\xEDvoros"
   - "\xD3leo"

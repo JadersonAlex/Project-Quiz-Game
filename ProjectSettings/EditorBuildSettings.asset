@@ -15,9 +15,13 @@ EditorBuildSettings:
     path: Assets/Scenes/T1.unity
     guid: 7e9fdd4fd78f7a449a7e2e8b42e1f886
   - enabled: 1
+    path: Assets/Scenes/T2.unity
+    guid: bb81af8fe75179c429c2a2921836c3c5
+  - enabled: 1
     path: Assets/Scenes/FinalNote.unity
     guid: a31bf53d7f27a4f4eb411936937c04c0
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 29e88cfe8097e2149a0325496ed2486e, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 1cd995010c68df74fb8a6d1377396ce6, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

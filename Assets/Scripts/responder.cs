@@ -3,10 +3,11 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using Unity.Mathematics;
 
 public class responder : MonoBehaviour
 {
-    public int idTema;
+    private int idTema;
 
     public TMP_Text pergunta;
     public TMP_Text respostaA;
@@ -29,9 +30,13 @@ public class responder : MonoBehaviour
     private float acertos;
     private float questoes;
     private float media;
+    private int notaFinal;
 
     void Start()
     {
+        idTema = PlayerPrefs.GetInt("idTema");
+
+
         idPergunta = 0; // a primeira pergunta
         questoes = perguntas.Length;
 
@@ -104,6 +109,21 @@ public class responder : MonoBehaviour
         else
         {
             // quando terminar as perguntas
+            media = 10 * (acertos / questoes); // calcula com base no percentual de acertos
+            notaFinal = Mathf.RoundToInt(media); // arredonda a nota para inteiro
+
+
+            if (notaFinal > PlayerPrefs.GetInt("notaFinal" + idTema.ToString()))
+            {
+
+                PlayerPrefs.SetInt("notaFinal"+idTema.ToString(), notaFinal);
+                PlayerPrefs.SetInt("acertos"+ idTema.ToString(), (int) acertos);
+
+            }
+
+            PlayerPrefs.SetInt("notaFinalTemp" + idTema.ToString(), notaFinal);
+            PlayerPrefs.SetInt("acertosTemp" + idTema.ToString(), (int)acertos);
+
             SceneManager.LoadScene("FinalNote");
         }
     }

@@ -349,9 +349,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idTema: 2
-  estrela1: {fileID: 2009650421}
-  estrela2: {fileID: 1416362624}
-  estrela3: {fileID: 930482458}
+  estrela1: {fileID: 667128313}
+  estrela2: {fileID: 1304167926}
+  estrela3: {fileID: 189658162}
 --- !u!114 &233798429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -639,13 +639,13 @@ MonoBehaviour:
   txtNomeTema: {fileID: 1606839098}
   infoTema: {fileID: 1172069134}
   txtInfoTema: {fileID: 1703470071}
-  estrela1: {fileID: 2009650421}
-  estrela2: {fileID: 1416362624}
+  estrela1: {fileID: 1416362624}
+  estrela2: {fileID: 2009650421}
   estrela3: {fileID: 930482458}
   nomeTema:
   - Selecione um Tema
-  - "Hist\xF3ria"
   - "Ci\xEAncias e Natureza"
+  - "Hist\xF3ria"
   numeroQuestoes: 20
 --- !u!1 &430537499
 GameObject:
@@ -797,9 +797,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idTema: 1
-  estrela1: {fileID: 2009650421}
-  estrela2: {fileID: 1416362624}
-  estrela3: {fileID: 930482458}
+  estrela1: {fileID: 840318280}
+  estrela2: {fileID: 1920075250}
+  estrela3: {fileID: 567419904}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
